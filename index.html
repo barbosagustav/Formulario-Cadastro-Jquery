@@ -8,23 +8,37 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <div id="conteiner">
 
     <h1>Cadastro</h1>
 
-    <form>
-        <input type="text" name="nome" id="" placeholder="nome">
-        <input type="email" name="email" id="" placeholder="email">
-        <input type="number" name="telefone" id="" placeholder="telefone">
-        <input type="number" name="CPF" id="" placeholder="CPF">
-        <input type="text" name="Enderecocompleto" id="" placeholder="Endereço Completo">
-        <input type="number" name="CEP" id="" placeholder="CEP">
-    </form>
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone">
+
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf">
+
+            <label for="Enderecocompleto"> Endereço Completo</label>
+            <input type="text" id="Enderecocompleto">
+
+            <label for="CEP">CEP</label>
+            <input type="text" id="cep">
+        </form>
+
+    </div>
 
 
 
     
 
-    <script src="js/jquery.mask.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/messages_pt_BR.min.js"></script>
     <script src="js/main.js"></script>
